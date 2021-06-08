@@ -16,7 +16,13 @@ public class Cuadrado extends Figura{
     }
 
     public double getArea(){
-        return lado*lado;
+        double area;
+        area = lado*lado;
+
+        if(area != 0)
+            return area;
+        else
+            throw new LadoNoProvistoException();
     }
 
     public double getLado(){
