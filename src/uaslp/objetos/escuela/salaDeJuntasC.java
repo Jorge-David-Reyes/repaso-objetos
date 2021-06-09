@@ -7,7 +7,6 @@ public class salaDeJuntasC extends SalaDeJuntas{
 
     }
 
-
     public String getNombre(){
         return nombre;
     }

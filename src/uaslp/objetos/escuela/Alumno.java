@@ -14,26 +14,6 @@ public class Alumno {
         return new AlumnoBuilder();
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getClave() {
-        return clave;
-    }
-
-    public String getClaveDeCarrera() {
-        return claveDeCarrera;
-    }
-
-    public int getAnioDeIngreso() {
-        return anioDeIngreso;
-    }
-
-    public LocalDate getFechaNacimiento() {
-        return fechaDeNacimiento;
-    }
-
     // asumir que todo getter y setter está definido
 
     public static class AlumnoBuilder {
@@ -73,6 +53,26 @@ public class Alumno {
             return alumno;
         }
 
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public String getClaveDeCarrera() {
+        return claveDeCarrera;
+    }
+
+    public int getAnioDeIngreso() {
+        return anioDeIngreso;
+    }
+
+    public LocalDate getFechaNacimiento() {
+        return fechaDeNacimiento;
     }
 
     private void fechaDeNacimiento(LocalDate fechaDeNacimineto) {

@@ -7,7 +7,6 @@ public class salaDeJuntasA extends SalaDeJuntas{
 
     }
 
-
     public String getNombre(){
         return nombre;
     }
