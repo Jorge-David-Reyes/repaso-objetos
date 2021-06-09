@@ -11,10 +11,9 @@ public class Alumno {
     private LocalDate fechaDeNacimiento;
 
     public static AlumnoBuilder builder() {
+
         return new AlumnoBuilder();
     }
-
-    // asumir que todo getter y setter está definido
 
     public static class AlumnoBuilder {
 
